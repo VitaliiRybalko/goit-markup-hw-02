@@ -1,0 +1,207 @@
+/* Header */
+.logo{
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.logo-span{
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.list a{
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.address a {
+color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+.address a:hover, 
+.address a:focus {
+    color: #404bbf;
+}
+/* Section */
+.section{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.main-title {color: var(--WHITE, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07x;
+    /* 107.143% */
+    letter-spacing: 0.02em}
+
+    .button{
+        color: var(--WHITE, #ffffff);
+        
+            /* Button Text */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5;
+            /* 150% */
+            letter-spacing: 0.04em;
+            background-color: #4D5AE5;
+            cursor: pointer;
+    }
+    .button:hover,
+    .button:focus{
+        background-color: #404BBF
+    }
+    /* Section 2 */
+    .benefits{
+        color: var(--NAVY-BLUE, #2E2F42);
+        
+            /* Header 3 */
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.2;
+            /* 120% */
+            letter-spacing: 0.02em;
+    }
+    .benefits-p{
+        color: var(--SLATE, #434455);
+        
+            /* Body */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5;
+            /* 150% */
+            letter-spacing: 0.02em;
+    }
+        /* Section 3 */
+        .section3-h2{
+            color: var(--NAVY-BLUE, #2E2F42);
+                text-align: center;
+            
+                /* Header 2 */
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.11;
+                /* 111.111% */
+                letter-spacing: 0.02;
+                text-transform: capitalize;
+        }
+                 /* Section 4 */
+                 .our-team{
+                    color: var(--NAVY-BLUE, #2E2F42);
+                        text-align: center;
+                    
+                        /* Header 2 */
+                        font-family: Roboto;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 1.11;                        /* 111.111% */
+                        letter-spacing: 0.02em;
+                        text-transform: capitalize;
+                 }
+                 .section4-h3{
+                    color: var(--NAVY-BLUE, #2E2F42);
+                        text-align: center;
+                    
+                        /* Header 3 */
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 1.11;
+                        /* 120% */
+                        letter-spacing: 0.02em;
+                 }
+                 .section4-p{
+                    color: var(--SLATE, #434455);
+                        text-align: center;
+                    
+                        /* Body */
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        /* 150% */
+                        letter-spacing: 0.02em;
+                 }
+                 /* footer */
+                 .footer{
+                    background: var(--NAVY-BLUE, #2E2F42);
+
+                 }
+                 .logo-span-footer{
+                    color: var(--CLOUD, #F4F4FD);
+                        font-family: Raleway;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 1.17;
+                        /* 116.667% */
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                 }
+                 .footer-p{
+                    color: var(--CLOUD, #F4F4FD);
+                    
+                        /* Body */
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        /* 150% */
+                        letter-spacing: 0.02em;
+                 }
+
+
+
+
+
+    
+
+
