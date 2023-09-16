@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color:#ffffff;
+    background-color: var(--backcolor)
     
 }
 
@@ -124,7 +124,7 @@ color: var(--SLATE, #434455);
             line-height: 1.2;
             /* 120% */
             letter-spacing: 0.02em;
-            background-color: #FFFFFF;
+            background-color:var(--backcolor)
     }
     .benefits-p{
         color: var(--SLATE, #434455);
@@ -156,10 +156,10 @@ color: var(--SLATE, #434455);
         }
                  /* Section 4 */
                  .section4{
-                    background-color: #F4F4FD
+                    background-color:var(--backcolor)
                  }
                  .section4-li{
-                    background-color: #FFFFFF
+                    background-color: var(--backcolor)
                  }
                  .our-team{
                     color: var(--NAVY-BLUE, #2E2F42);
@@ -228,6 +228,12 @@ color: var(--SLATE, #434455);
                         /* 150% */
                         letter-spacing: 0.02em;
                  }
+                                 :root {
+                                     --backcolor: #ffffff}
+                 
+                    
+                    
+                
 
 
 
