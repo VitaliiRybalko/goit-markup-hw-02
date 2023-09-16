@@ -1,5 +1,5 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color:#ffffff;
     
@@ -82,7 +82,7 @@ color: var(--SLATE, #434455);
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .main-title {color: var(--WHITE, #FFF);
-    text-align: center;
+    
 
     /* Header 1 */
     font-family: 'Roboto', sans-serif;
@@ -97,7 +97,7 @@ color: var(--SLATE, #434455);
         color: var(--WHITE, #ffffff);
         
             /* Button Text */
-            font-family: Roboto;
+            font-family: Roboto, sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
@@ -123,6 +123,7 @@ color: var(--SLATE, #434455);
             line-height: 1.2;
             /* 120% */
             letter-spacing: 0.02em;
+            background-color: #FFFFFF;
     }
     .benefits-p{
         color: var(--SLATE, #434455);
@@ -139,7 +140,7 @@ color: var(--SLATE, #434455);
         /* Section 3 */
         .section3-h2{
             color: var(--NAVY-BLUE, #2E2F42);
-                text-align: center;
+                
             
                 /* Header 2 */
                 font-family: Roboto;
@@ -160,7 +161,7 @@ color: var(--SLATE, #434455);
                  }
                  .our-team{
                     color: var(--NAVY-BLUE, #2E2F42);
-                        text-align: center;
+                        
                     
                         /* Header 2 */
                         font-family: Roboto;
@@ -173,7 +174,7 @@ color: var(--SLATE, #434455);
                  }
                  .section4-h3{
                     color: var(--NAVY-BLUE, #2E2F42);
-                        text-align: center;
+                       
                     
                         /* Header 3 */
                         font-family: Roboto;
@@ -186,7 +187,7 @@ color: var(--SLATE, #434455);
                  }
                  .section4-p{
                     color: var(--SLATE, #434455);
-                        text-align: center;
+                        
                     
                         /* Body */
                         font-family: Roboto;
