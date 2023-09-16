@@ -230,8 +230,9 @@ color: var(--SLATE, #434455);
                  }
                                  :root {
                                     --size:16px
-                                     --backcolor: #ffffff 
+                                     
                                  }
+                                 ;:root {--backcolor: #FFFFFF}
                                       
                  
                     
