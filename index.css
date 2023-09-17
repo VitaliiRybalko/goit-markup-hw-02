@@ -1,20 +1,29 @@
-:root {
-    --size:16px
-                     
- }
-:root {--WHITE:#FFFFFF}
+
+:root {--white #ffffff;
+       --cloud #F4F4FD;
+       --iris #4D5AE5;
+       --slate #434455;
+       --navy-blue #2E2F42;
+       --blue #404bbf;
+
+
+
+
+       
+}
+
                       
 body{
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: var(--WHITE);
+    color: var(--slate);
+    background-color: var(--white);
     
 }
-
+ 
 
 /* Header */
 .logo{
-    color: var(--IRIS, #4D5AE5);
+    color: var(--iris);
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -25,7 +34,7 @@ body{
         text-transform: uppercase;
 }
 .logo-span{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--navy-blue);
         font-family: Raleway;
         font-size: 18px;
         font-style: normal;
@@ -36,7 +45,7 @@ body{
         text-transform: uppercase;
 }
 .list a{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--navy-blue);
     
         /* Body Medium */
         font-family: Roboto;
@@ -65,11 +74,11 @@ body{
 
 }
 .address a {
-color: var(--SLATE, #434455);
+color: var(--slate);
 
     /* Body */
     font-family: Roboto;
-    font-size: var(--size);
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -85,9 +94,9 @@ color: var(--SLATE, #434455);
 }
 /* Section */
 .section{
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--navy-blue);
 }
-.main-title {color:var(--WHITE);
+.main-title {color:var(--white);
     
 
     /* Header 1 */
@@ -101,17 +110,17 @@ color: var(--SLATE, #434455);
     letter-spacing: 0.02em}
 
     .button{
-        color: var(--WHITE);
+        color: var(--white);
         
             /* Button Text */
             font-family: Roboto, sans-serif;
-            font-size: var(--size);
+            font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 1.5;
             /* 150% */
             letter-spacing: 0.04em;
-            background-color: #4D5AE5;
+            background-color: var(--iris);
             cursor: pointer;
     }
     .button:hover,
@@ -120,7 +129,7 @@ color: var(--SLATE, #434455);
     }
     /* Section 2 */
     .benefits{
-        color: var(--NAVY-BLUE, #2E2F42);
+        color: var(--navy-blue);
         
             /* Header 3 */
             font-family: Roboto;
@@ -130,14 +139,14 @@ color: var(--SLATE, #434455);
             line-height: 1.2;
             /* 120% */
             letter-spacing: 0.02em;
-            background-color:var(--WHITE)
+            background-color:var(--white)
     }
     .benefits-p{
-        color: var(--SLATE, #434455);
+        color: var(--slate);
         
             /* Body */
             font-family: Roboto;
-            font-size:var(--size);
+            font-size:16px;
             font-style: normal;
             font-weight: 400;
             line-height: 1.5;
@@ -146,7 +155,7 @@ color: var(--SLATE, #434455);
     }
         /* Section 3 */
         .section3-h2{
-            color: var(--NAVY-BLUE, #2E2F42);
+            color: var(--navy-blue);
                 
             
                 /* Header 2 */
@@ -162,17 +171,17 @@ color: var(--SLATE, #434455);
         }
                  /* Section 4 */
                  .section4{
-                    background-color:#F4F4FD ;
+                    background-color: var(--cloud) ;
                  }
                  .section4-li{
-                    background-color: var(--WHITE);
+                    background-color: var(--white);
                  }
                  .our-team{
-                    color: var(--NAVY-BLUE, #2E2F42);
+                    color: var(--navy-blue);
                         
                     
                         /* Header 2 */
-                        font-family: Roboto;
+                        font-family: Roboto,sans-serif;
                         font-size: 36px;
                         font-style: normal;
                         font-weight: 700;
@@ -182,7 +191,7 @@ color: var(--SLATE, #434455);
                         text-align: center;
                  }
                  .section4-h3{
-                    color: var(--NAVY-BLUE, #2E2F42);
+                    color: var(--navy-blue);
                        
                     
                         /* Header 3 */
@@ -195,12 +204,12 @@ color: var(--SLATE, #434455);
                         letter-spacing: 0.02em;
                  }
                  .section4-p{
-                    color: var(--SLATE, #434455);
+                    color: var(--slate);
                         
                     
                         /* Body */
-                        font-family: Roboto;
-                        font-size: var(--size);
+                        font-family: Roboto, sans-serif;
+                        font-size:16px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: 1.5;
@@ -209,11 +218,11 @@ color: var(--SLATE, #434455);
                  }
                  /* footer */
                  .footer{
-                    background: var(--NAVY-BLUE, #2E2F42);
+                    background: var(--navy-blue);
 
                  }
                  .logo-span-footer{
-                    color: var(--CLOUD, #F4F4FD);
+                    color: var(--cloud);
                         font-family: Raleway, sans-serif;
                         font-size: 18px;
                         font-style: normal;
@@ -223,11 +232,11 @@ color: var(--SLATE, #434455);
                         text-transform: uppercase;
                  }
                  .footer-p{
-                    color: var(--CLOUD, #F4F4FD);
+                    color: var(--cloud);
                     
                         /* Body */
                         font-family: Roboto;
-                        font-size: var(--size); 
+                        font-size: 16px; 
                         font-style: normal;
                         font-weight: 400;
                         line-height: 1.5;
