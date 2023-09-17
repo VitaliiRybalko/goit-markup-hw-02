@@ -1,10 +1,10 @@
 
-:root {--white #ffffff;
-       --cloud #F4F4FD;
-       --iris #4D5AE5;
-       --slate #434455;
-       --navy-blue #2E2F42;
-       --blue #404bbf;
+:root {--white: #FFFFFF; 
+       --cloud: #F4F4FD;
+       --iris: #4D5AE5;
+       --slate: #434455;
+       --navy-blue: #2E2F42;
+       --blue: #404bbf;
 
 
 
@@ -14,7 +14,7 @@
 
                       
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     color: var(--slate);
     background-color: var(--white);
     
