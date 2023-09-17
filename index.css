@@ -44,7 +44,7 @@
 
                       
 body{
-    font-family:'Roboto', sans-serif;
+    font-family:var(--font-nd);
     color: var(--slate);
     background-color: var(--white);
     
@@ -154,7 +154,7 @@ color: var(--slate);
     }
     .button:hover,
     .button:focus{
-        background-color: #404BBF
+        background-color:var(--blue)
     }
     /* Section 2 */
     .benefits{
