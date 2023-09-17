@@ -33,9 +33,10 @@
         --letter-spacing-04em: 0.04em;
 
         --text-align:center;
-        --text-trasform: uppercase;
+        --text-transform: uppercase;
 
-        var(--text-transform);
+
+       
 
         
         
@@ -65,7 +66,7 @@ body{
         font-weight: var(--font-weight-800);
         line-height:var(--line-height-1-17);
         letter-spacing: var(--letter-spacing-03em);
-        text-transform: var(--text-transform);
+        text-transform: var(--text-transform);}
 .logo-span{
     color: var(--navy-blue);
         font-family:var(--font-st);
@@ -75,7 +76,7 @@ body{
         line-height:var(--line-height-1-17);
         /* 116.667% */
         letter-spacing:var(--letter-spacing-03em);
-        text-transform: var(--text-transform);
+        text-transform: var(--text-transform);}
 .list a{
     color: var(--navy-blue);
     
