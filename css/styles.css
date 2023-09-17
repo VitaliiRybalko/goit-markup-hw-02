@@ -1,10 +1,10 @@
 /* Body */
 body{
    background-color: #ffffff;
-   color: #2E2F42;
+   color: #434455 ;
    width: 1440px;
    height: 2076px;
-   font-family: Roboto;
+   font-family: Roboto, sans-serif;
 }
 ul {
     list-style: none;
@@ -19,27 +19,27 @@ footer{
     flex-shrink: 0;
 
 }
-.logo1 {
+.logo-st {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;}
        
-.logo2 {
+.logo-nd {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         
 }
