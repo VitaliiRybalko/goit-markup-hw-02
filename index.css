@@ -15,6 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: var(--slate);
     background-color: var(--white);
 
@@ -171,7 +172,7 @@ body {
 }
 
 /* Section 3 */
-.section3-h2 {
+.section-three-h-two{
     color: var(--navy-blue);
 
 
@@ -188,11 +189,11 @@ body {
 }
 
 /* Section 4 */
-.section4 {
+.section-four {
     background-color: var(--cloud);
 }
 
-.section4-li {
+.benefits {
     background-color: var(--white);
 }
 
@@ -212,7 +213,7 @@ body {
     text-align: center;
 }
 
-.section4-h3 {
+.section-four-h-three{
     color: var(--navy-blue);
 
 
@@ -226,7 +227,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.section4-p {
+.benefits-p {
     color: var(--slate);
 
 
