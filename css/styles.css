@@ -34,6 +34,7 @@ footer {
 .navlink {
     color: var(--NAVY-BLUE, #2E2F42);
 }
+.link
 
 .navlink:hover,
 .navlink:focus {
