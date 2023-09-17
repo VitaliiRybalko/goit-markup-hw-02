@@ -21,6 +21,18 @@
         --font-weight-500: 500;
         --font-weight-700:700; 
         --font-weight-800:800; 
+        --line-height-1-17:1.17; 
+        --line-height-1-5: 1.5; 
+        --line-height-1-2: 1.2; 
+        --line-height-1-2: 1.11; 
+        --line-height-1-2: 1.07; 
+        --letter-spacing-03em: 0.03em;
+        --letter-spacing-02em: 0.02em;
+        --letter-spacing-04em: 0.04em;
+
+        
+        var(--letter-spacing-03em);
+        var(--letter-spacing-02em);
 
 
 
@@ -44,8 +56,8 @@ body{
         font-size: var(--font-size18px);
         font-style: var(--font-style);
         font-weight: var(--font-weight-800);
-        line-height: 1.17;
-        letter-spacing: 0.03em;
+        line-height:var(--line-height-1-17);
+        letter-spacing: var(--letter-spacing-03em);
         text-transform: uppercase;
 }
 .logo-span{
@@ -54,9 +66,9 @@ body{
         font-size: var(--font-size18px);
         font-style: var(--font-style);
         font-weight: var(--font-weight-800);
-        line-height: 1.17;
+        line-height:var(--line-height-1-17);
         /* 116.667% */
-        letter-spacing: 0.03em;
+        letter-spacing:var(--letter-spacing-03em);
         text-transform: uppercase;
 }
 .list a{
@@ -67,9 +79,9 @@ body{
         font-size: var(--font-size16px);
         font-style: var(--font-style);
         font-weight: var(--font-weight-500);
-        line-height: 1.5;
+        line-height: var(--line-height-1-5);
         /* 150% */
-        letter-spacing: 0.02em;
+        letter-spacing: var(--letter-spacing-02em);
 }
 .list a:hover
  {
@@ -96,9 +108,9 @@ color: var(--slate);
     font-size: var(--font-size16px);
     font-style: var(--font-style);
     font-weight: var(--font-weight-400);
-    line-height: 1.5;
+    line-height:var(--line-height-1-5);
     /* 150% */
-    letter-spacing: 0.02em;
+    letter-spacing: var(--letter-spacing-02em);
 }
 .address{
     font-style:var(--font-style);
@@ -120,9 +132,9 @@ color: var(--slate);
     text-align: center;
     font-style: var(--font-style);
     font-weight: var(--font-weight-700);
-    line-height: 1.07;
+    line-height: var(--line-height-1-07);
    
-    letter-spacing: 0.02em}
+    letter-spacing: var(--letter-spacing-02em);}
 
     .button{
         color: var(--white);
@@ -132,9 +144,9 @@ color: var(--slate);
             font-size: var(--font-size16px);
             font-style: var(--font-style);
             font-weight:var(--font-weight-500);
-            line-height: 1.5;
+            line-height: var(--line-height-1-5);
             /* 150% */
-            letter-spacing: 0.04em;
+            letter-spacing: var(--letter-spacing-04em);
             background-color: var(--iris);
             cursor: pointer;
     }
@@ -151,9 +163,9 @@ color: var(--slate);
             font-size: var(--font-size20px);
             font-style: var(--font-style);
             font-weight: var(--font-weight-500);
-            line-height: 1.2;
+            line-height: var(--line-height-1-2);
             
-            letter-spacing: 0.02em;
+            letter-spacing: var(--letter-spacing-02em);
             background-color:var(--white)
     }
     .benefits-p{
@@ -164,9 +176,9 @@ color: var(--slate);
             font-size:var(--font-size16px);
             font-style: var(--font-style);
             font-weight:var(--font-weight-400);
-            line-height: 1.5;
+            line-height:var(--line-height-1-5);
             /* 150% */
-            letter-spacing: 0.02em;
+            letter-spacing:var(--letter-spacing-02em);
     }
         /* Section 3 */
         .section-three-h-two{
@@ -178,10 +190,10 @@ color: var(--slate);
                 font-size:var(--font-size36px);
                 font-style:var(--font-style);
                 font-weight: var(--font-weight-700);
-                line-height: 1.11;
+                line-height: var(--line-height-1-11);
                 text-align: center;
                 /* 111.111% */
-                letter-spacing: 0.02;
+                letter-spacing: var(--letter-spacing-02em);
                 text-transform: capitalize;
         }
                  /* Section 4 */
@@ -200,8 +212,8 @@ color: var(--slate);
                         font-size: var(--font-size36px);
                         font-style: var(--font-style);
                         font-weight: var(--font-weight-700);
-                        line-height: 1.11;                        /* 111.111% */
-                        letter-spacing: 0.02em;
+                        line-height: var(--line-height-1-11);                     /* 111.111% */
+                        letter-spacing: var(--letter-spacing-02em);
                         text-transform: capitalize;
                         text-align: center;
                  }
@@ -214,9 +226,9 @@ color: var(--slate);
                         font-size:var(--font-size20px);
                         font-style: var(--font-style);
                         font-weight:var(--font-weight-500);
-                        line-height: 1.2;
+                        line-height: var(--line-height-1-2);
                         /* 120% */
-                        letter-spacing: 0.02em;
+                        letter-spacing: var(--letter-spacing-02em);
                  }
                  .benefits-p{
                     color: var(--slate);
@@ -227,9 +239,9 @@ color: var(--slate);
                         font-size:var(--font-size16px);
                         font-style: var(--font-style);
                         font-weight: var(--font-weight-400);
-                        line-height: 1.5;
+                        line-height:  var(--line-height-1-5);
                         /* 150% */
-                        letter-spacing: 0.02em;
+                        letter-spacing:  var(--letter-spacing-02em);
                  }
                  /* footer */
                  .footer{
@@ -242,8 +254,8 @@ color: var(--slate);
                         font-size:var(--font-size18px);
                         font-style: var(--font-style);
                         font-weight:var(--font-weight-800);
-                        line-height: 1.17;
-                        letter-spacing: 0.03em;
+                        line-height:var(--line-height-1-17);
+                        letter-spacing: var(--letter-spacing-03em);
                         text-transform: uppercase;
                  }
                  .footer-p{
@@ -254,9 +266,9 @@ color: var(--slate);
                         font-size: var(--font-size16px);
                         font-style:var(--font-style);
                         font-weight:var(--font-weight-400);
-                        line-height: 1.5;
+                        line-height:var(--line-height-1-5);
                         /* 150% */
-                        letter-spacing: 0.02em;
+                        letter-spacing: var(--letter-spacing-02em);
                  }
                    
                  
