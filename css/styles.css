@@ -40,7 +40,8 @@ footer {
 
 
 .navlink:hover,
-.navlink:focus {
+.navlink:focus,
+.navlink:active {
     color: var(--NAVY-BLUE, #404bbf);
 
 }
