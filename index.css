@@ -163,7 +163,7 @@ color: var(--slate);
             letter-spacing: 0.02em;
     }
         /* Section 3 */
-        .section3-h2{
+        .section-three-h-two{
             color: var(--navy-blue);
                 
             
@@ -179,7 +179,7 @@ color: var(--slate);
                 text-transform: capitalize;
         }
                  /* Section 4 */
-                 .section4{
+                 .section-four{
                     background-color: var(--cloud) ;
                  }
                  .section4-li{
@@ -212,7 +212,7 @@ color: var(--slate);
                         /* 120% */
                         letter-spacing: 0.02em;
                  }
-                 .section4-p{
+                 .benefits-p{
                     color: var(--slate);
                         
                     
