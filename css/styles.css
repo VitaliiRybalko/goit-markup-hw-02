@@ -32,6 +32,9 @@ footer{
 .address{
     font-style: normal
 }
+.list{
+    list-style: none;
+}
 
 .logo-st {
     color: var(--IRIS, #4D5AE5);
