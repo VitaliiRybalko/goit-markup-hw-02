@@ -162,7 +162,7 @@ p {
 footer {
     width: 1440px;
     height: 312px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     background-color: #2E2F42;
     font-family: Roboto;
 
@@ -175,7 +175,7 @@ footer p {
     font-weight: 400;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 
 }
@@ -188,7 +188,32 @@ footer p {
     font-weight: 800;
     line-height: 1.5;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
+}
+.cardname{
+   
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+
+}
+.cardtype{
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
 }
