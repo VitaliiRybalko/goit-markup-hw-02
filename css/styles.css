@@ -128,7 +128,7 @@ footer {
     cursor: pointer;
 }
 .button:hover,
-.button:hover{
+.button:focus{
     color: #FFFFFF;
     background-color: #404BBF;
 
@@ -159,17 +159,16 @@ p {
     letter-spacing: 0.32px;
 }
 
-footer {
-    width: 1440px;
-    height: 312px;
+.footer {
+   
     /* flex-shrink: 0; */
     background-color: #2E2F42;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
 
 }
 
 footer p {
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -182,7 +181,7 @@ footer p {
 
 .footerlogo2 {
     color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -197,7 +196,7 @@ footer p {
     color: var(--NAVY-BLUE, #2E2F42);
     
         /* Header 3 */
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -209,7 +208,7 @@ footer p {
     color: var(--SLATE, #434455);
     
         /* Body */
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
