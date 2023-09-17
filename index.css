@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: var(--backcolor);
+    background-color: var(--WHITE, #FFF);
     
 }
 
@@ -228,11 +228,11 @@ color: var(--SLATE, #434455);
                         /* 150% */
                         letter-spacing: 0.02em;
                  }
-                                 :root {
-                                    --size:16px
+                    :root {
+                    --size:16px
                                      
-                                 }
-                                 ;:root {--backcolor: #FFFFFF}
+                 }
+                :root {--WHITE: #ffffff}
                                       
                  
                     
