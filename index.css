@@ -124,7 +124,7 @@ color: var(--SLATE, #434455);
             line-height: 1.2;
             /* 120% */
             letter-spacing: 0.02em;
-            background-color:var(--backcolor)
+            background-color:var(--WHITE)
     }
     .benefits-p{
         color: var(--SLATE, #434455);
@@ -156,10 +156,10 @@ color: var(--SLATE, #434455);
         }
                  /* Section 4 */
                  .section4{
-                    background-color:var(--backcolor);
+                    background-color:var(--WHITE);
                  }
                  .section4-li{
-                    background-color: var(--backcolor);
+                    background-color: var(--WHITE);
                  }
                  .our-team{
                     color: var(--NAVY-BLUE, #2E2F42);
