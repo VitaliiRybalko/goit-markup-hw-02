@@ -10,8 +10,7 @@
 body {
     background-color: var(--white);
     color: #434455;
-    width: 1440px;
-    height: 2076px;
+    
     font-family: Roboto, sans-serif;
 }
 
@@ -27,12 +26,7 @@ a {
 }
 
 /* Footer */
-footer {
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0;
 
-}
 
 .navlink {
     color: var(--NAVY-BLUE, #2E2F42);
