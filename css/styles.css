@@ -22,9 +22,11 @@ footer{
 .navlink{
     color: var(--NAVY-BLUE, #2E2F42);
 }
+
 .navlink:hover,
-.navlink:focus{
-    color: var(--NAVY-BLUE, #2E2F42);
+.navlink:focus
+{
+    color: var(--NAVY-BLUE, #404bbf);
     
 }
 .address{
