@@ -19,6 +19,18 @@ footer{
     flex-shrink: 0;
 
 }
+.navlink{
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.navlink:hover,
+.navlink:focus{
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+}
+.address{
+    font-style: normal
+}
+
 .logo-st {
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;

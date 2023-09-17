@@ -1,7 +1,13 @@
+:root {
+    --size:16px
+                     
+ }
+:root {--WHITE:#FFFFFF}
+                      
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: var(--WHITE, #FFF);
+    background-color: var(--WHITE);
     
 }
 
@@ -81,7 +87,7 @@ color: var(--SLATE, #434455);
 .section{
     background: var(--NAVY-BLUE, #2E2F42);
 }
-.main-title {color: var(--WHITE, #FFF);
+.main-title {color:var(--WHITE);
     
 
     /* Header 1 */
@@ -95,7 +101,7 @@ color: var(--SLATE, #434455);
     letter-spacing: 0.02em}
 
     .button{
-        color: var(--WHITE, #ffffff);
+        color: var(--WHITE);
         
             /* Button Text */
             font-family: Roboto, sans-serif;
@@ -228,12 +234,7 @@ color: var(--SLATE, #434455);
                         /* 150% */
                         letter-spacing: 0.02em;
                  }
-                    :root {
-                    --size:16px
-                                     
-                 }
-                :root {--WHITE: #ffffff}
-                                      
+                   
                  
                     
                     
