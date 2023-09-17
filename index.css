@@ -32,6 +32,12 @@
         --letter-spacing-02em: 0.02em;
         --letter-spacing-04em: 0.04em;
 
+        --text-align:center;
+        --text-trasform: uppercase;
+
+        var(--text-transform);
+
+        
         
        
 
@@ -59,8 +65,7 @@ body{
         font-weight: var(--font-weight-800);
         line-height:var(--line-height-1-17);
         letter-spacing: var(--letter-spacing-03em);
-        text-transform: uppercase;
-}
+        text-transform: var(--text-transform);
 .logo-span{
     color: var(--navy-blue);
         font-family:var(--font-st);
@@ -70,8 +75,7 @@ body{
         line-height:var(--line-height-1-17);
         /* 116.667% */
         letter-spacing:var(--letter-spacing-03em);
-        text-transform: uppercase;
-}
+        text-transform: var(--text-transform);
 .list a{
     color: var(--navy-blue);
     
@@ -130,7 +134,7 @@ color: var(--slate);
     /* Header 1 */
     font-family: var(--font-nd);
     font-size:var(--font-size56px);
-    text-align: center;
+    text-align: var(--text-align);
     font-style: var(--font-style);
     font-weight: var(--font-weight-700);
     line-height: var(--line-height-1-07);
@@ -192,7 +196,7 @@ color: var(--slate);
                 font-style:var(--font-style);
                 font-weight: var(--font-weight-700);
                 line-height: var(--line-height-1-11);
-                text-align: center;
+                text-align:var(--text-align);
                 /* 111.111% */
                 letter-spacing: var(--letter-spacing-02em);
                 text-transform: capitalize;
@@ -216,7 +220,7 @@ color: var(--slate);
                         line-height: var(--line-height-1-11);                     /* 111.111% */
                         letter-spacing: var(--letter-spacing-02em);
                         text-transform: capitalize;
-                        text-align: center;
+                        text-align: var(--text-align);
                  }
                  .section-four-h-three{
                     color: var(--navy-blue);
@@ -257,7 +261,7 @@ color: var(--slate);
                         font-weight:var(--font-weight-800);
                         line-height:var(--line-height-1-17);
                         letter-spacing: var(--letter-spacing-03em);
-                        text-transform: uppercase;
+                        text-transform: var(--text-transform);
                  }
                  .footer-p{
                     color: var(--cloud);
